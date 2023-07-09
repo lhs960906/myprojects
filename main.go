@@ -9,11 +9,11 @@ import (
 func main() {
 	u1 := user.User{
 		Id:       "20230709140000",
-		Email:    "592081451@qq.com",
-		Password: "lhs960906",
+		Email:    "592081451@163.com",
+		Password: "123456",
 		Identity: identity.Identity{
-			Id:   "362202199609061531",
-			Name: "赖宏松",
+			Id:   "362201200009061532",
+			Name: "小赖",
 		},
 	}
 	utils.PrintUserIdentity(u1)
